@@ -1,0 +1,48 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    button:hover {
+        background-color: rgb(57, 57, 57);
+        cursor: pointer;
+    }
+}
+
+
+.paragraphe {
+    font-size: 12px;
+    color : white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.darkmode {
+    background-color: black;
+    color : white;
+
+    .paragraphe {
+        background-color: white;
+        color : black;
+    }
+
+    a {
+        color : lightblue;
+        text-decoration: none;
+    }
+
+    .darkBtn {
+        background-color: white;
+        color: black;
+    }
+
+}

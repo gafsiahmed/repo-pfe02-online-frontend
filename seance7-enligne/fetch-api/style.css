@@ -1,0 +1,15 @@
+.specificUser {
+    background-color: lightslategrey;
+    color: white;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    gap: 2px;
+}

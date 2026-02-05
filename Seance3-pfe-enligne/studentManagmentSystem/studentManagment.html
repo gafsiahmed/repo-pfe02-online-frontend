@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student managment System</title>
+    <link rel="stylesheet" href="studentManagment.css">
+</head>
+
+<body>
+    <header>
+        <h1>Students Management System</h1>
+        <p>Welcome to the Students Management System. Here you can manage student records efficiently.</p>
+    </header>
+
+    <form class="addStudent">
+        <h3>Add Student Form</h3>
+        <label for="firstName">First Name :</label>
+        <input type="text" id="firstName">
+        <label for="lastName">Last Name :</label>
+        <input type="text" id="lastName">
+        <label for="class">Select Your Classe</label>
+        <select name="classe" id="classe">
+            <option value="A">Classe A</option>
+            <option value="B">Classe B</option>
+            <option value="C">Classe C</option>
+        </select>
+        <label for="grade">Enter the grade</label>
+        <input type="number" id="grade">
+
+        <button type="submit">Add</button>
+    </form>
+
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Class</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody class="studentTable">
+            <tr>
+                <td>Ahmed</td>
+                <td>Gafsi</td>
+                <td>C</td>
+                <td>12</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <script src="studentManagment.js"></script>
+</body>
+</html>

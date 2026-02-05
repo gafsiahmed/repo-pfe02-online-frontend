@@ -1,0 +1,21 @@
+.para {
+    color: lightblue;
+    background-color: black;
+}
+
+
+.userCard{
+    background-color: gray;
+    width: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title{
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+    }
+}

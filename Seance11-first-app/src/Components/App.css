@@ -1,0 +1,15 @@
+.container {
+    background-color: lightskyblue;
+    padding: 10px;
+    border-radius: 5px;
+
+    h1 {
+        color : bluenavy;
+        font-size: 24px;
+    }
+
+    p {
+        color: darkblue;
+        font-size: 16px;
+    }
+}

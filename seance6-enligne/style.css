@@ -1,0 +1,40 @@
+.userCard {
+  background-color: rgb(216, 216, 216);
+  width: fit-content;
+  padding: 10px;
+  border: solid black 1px;
+  border-radius: 8px;
+}
+
+.userPosts {
+  background-color: rgb(216, 216, 216);
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+
+  .post {
+    background-color: rgb(242, 242, 242);
+    border: solid black 1px;
+    padding: 4px;
+    border-radius: 10px;
+  }
+}
+
+.post .content {
+    font-size: 31px;
+    font-weight: bold;
+    border: solid black 2px;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+.post .comments {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 4px;
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: white;
+}

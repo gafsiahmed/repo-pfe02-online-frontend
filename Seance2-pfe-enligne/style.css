@@ -1,0 +1,22 @@
+.title {
+    color : blue;
+    background-color: yellow;
+}
+
+
+#paragraphe {
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color :red;
+}
+
+[href="https://www.google.com"]{
+    font-weight: bold;
+    background-color: red;
+    color: white;
+}

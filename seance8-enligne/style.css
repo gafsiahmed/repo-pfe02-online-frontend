@@ -1,0 +1,46 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#title{
+    text-align: center;
+    color: #4CAF50;
+    font-family: 'Arial', sans-serif;
+}
+
+#fetchButton{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: solid green 2px;
+    border-radius: 5px;
+}
+
+#userContainer{
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(228, 228, 228);
+    height: 50%;
+    width: 90%;
+    /* border: solid black 1px; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userCard{
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border: solid black 1px;
+    border-radius: 5px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
