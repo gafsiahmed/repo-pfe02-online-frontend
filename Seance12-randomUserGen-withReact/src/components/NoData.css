@@ -1,0 +1,16 @@
+.noDataContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.noData{
+    font-size: 16px;
+    font-weight: 700;
+    color: red;
+}
